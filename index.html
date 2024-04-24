@@ -1,0 +1,162 @@
+<!Doctype HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kumaar Sangeet Pe!</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="Style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <!-- Navbar Starts Here -->
+    <div id="top">
+      <div id="logo" title="Kumaar Sangeet pe!" >
+        <a href="#">
+          <img id="logopic" src="logo.png" alt="Kumaar Sangeet Pe!">
+        </a>
+      </div>
+      <div id="ulbox">
+      <ul id="options">
+        <li title="Homepage"><a href="#">Home</a></li>
+        <li title="Our Services"><a href="#bgtext">Services</a></li>
+        <li title="Our Works"><a href="#ourwork">Our Work</a></li>
+        <li title="Contact us"><a href="#social">Contact</a></li>
+        <input type="checkbox" id="check">
+      </ul>
+       <label for="check">
+        <button onclick="myfunction()" id="optionbars">+</button>
+       </label>
+        </div>
+
+
+     
+    </div>
+
+    <!-- Navbar Ends Here -->
+
+    <!-- dropdown here  -->
+    <ul id="downoptions" class="dropdown-content">
+      <li title="Homepage"><a href="#">Home</a></li>
+        <li title="Our Services"><a href="#bgtext">Services</a></li>
+        <li title="Our Works"><a href="#ourwork">Our Work</a></li>
+        <li title="Contact us"><a href="#social">Contact</a></li>
+
+
+    </ul>
+
+    <!-- dropdown end hre  -->
+
+    <!-- bg starts Here -->
+    <img id="feedimg" src="Studio.png" alt="Music studio" />
+
+    <!-- bg text starts here  -->
+
+    <div id="bgtext">
+      <a href="#">
+        <img id="logofeed" src="logo.png" alt="Kumaar Sangeet Pe!">
+      </a>
+      <h1>Kumaar Sangeet Pe!</h1>
+      <h3>
+        "Welcome to Kumaar Sangeet Pe!, where we offer a comprehensive range of
+        music production services tailored to your needs. From recording and
+        mixing to mastering, our studio is equipped with state-of-the-art
+        technology which brings your musical vision to life. We provide the
+        tools and expertise to ensure your project sounds exceptional. Discover
+        the difference at Kumaar Sangeet Pe!"
+      </h3>
+    </div>
+
+    <!-- bg text ends here  -->
+
+    <!-- bg ends here  -->
+
+    <!-- our work section starts here  -->
+    <div id="ourwork">
+      <div id="workheader">
+        <h1>Our Work</h1>
+      </div>
+
+      <div id="ourwork-content">
+       <iframe
+          src="https://www.youtube.com/embed/JHh4cGc7Idg"
+          title="HOODLUM (OFFICIAL VIDEO) KUMAAR × HRSH THAKUR | Hrsh Thakur Music | 2024"
+          frameborder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe> 
+
+         <iframe
+          src="https://www.youtube.com/embed/GPYuuTViuus"
+          title="Rule(Official Video) Hrsh Thakur | Latest Punjabi Songs 2023 | Hrsh Thakur Music"
+          frameborder="0"
+          allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe> 
+
+        <iframe
+          src="https://www.youtube.com/embed/P-HZy35pzaE"
+          title="Dheeth - Kumaar | Official Music Visualizer | New haryanvi song 2023 | Haryanavi Hiphop #desihiphop"
+          frameborder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+
+         <iframe
+          src="https://www.youtube.com/embed/OItsN_GRyhk"
+          title="REIGNERS | KUMAAR | OFFICIAL MUSIC VISUALIZER @hrshthakur_music"
+          frameborder="0"
+          allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- our work section ends here  -->
+
+    <!-- about us section starts here  -->
+
+    <div id="social">
+      <div id="socialheader"><h1>Contact Us</h1></div>
+      <div id="links">
+        <div id="phone">
+          <a title="Call us" href="tel:+919729936973">
+            <img id="phonepic" src="phone.png" alt="Call us">
+          </a>
+        </div>
+
+
+        <div id="whatsapp">
+          <a title="Chat on Whatsapp" href="https://wa.me/+919729936973">
+            <img id="wapic" src="whatsapp.png" alt="Chat on Whatsapp">
+          </a>
+
+        </div>
+        <div id="instagram">
+          <a title="Visit Our Instagram Page" href="https://instagram.com/therealkumaar">
+            <img id="instapic" src="instagram.png" alt="Visit Our Instagram Page">
+          </a>
+        </div>
+        <div id="mail">
+          <a title="Mail Us" href="mailto:musicwithkumar8@gmail.com">
+            <img id="gmailpic" src="gmail.png" alt="Mail Us">
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- about us section ends here  -->
+    <footer>&#169;Kumaar Sangeet Pe! Developed by Kumaar</footer>
+
+    <script>
+      function myfunction(){
+        var x = document.getElementById("downoptions");
+        if (x.style.display === "none"){
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+
+    
+  </body>
+</html>

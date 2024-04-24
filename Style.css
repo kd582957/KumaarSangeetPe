@@ -1,0 +1,520 @@
+* {
+  padding: 0;
+  margin: 0;
+  left: 0;
+  box-sizing: border-box;
+  /* color: white; */
+  /* color: ; */
+}
+
+body{
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+  Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* border: 2px solid red; */
+  /* height: -700px; */
+  background-color: #15212d;
+
+}
+
+#top {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background-color: #111111;
+  z-index: 3;
+  /* color: white; */
+}
+
+#logo {
+  /* border: 2px solid blue; */
+  margin-left: 2%;
+  color: white;
+  cursor: pointer;
+}
+#logopic{
+  width: 100px;
+}
+#logofeed{
+  width: 200px;
+  border-radius: 0% 12% 0% 12%;
+}
+
+#ulbox{
+  list-style: none;
+  width: 30%;
+  /* border: 2px solid yellow; */
+  margin-right: 2%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  float: right!;
+
+}
+
+#options {
+  list-style: none;
+  width: 100%;
+  /* border: 2px solid blue; */
+  margin-right: 2%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  float: right!;
+}
+
+#optionbars{
+  /* display: flex; */
+  /* border: 2px solid red; */
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  
+  /* color: white; */
+  float: right;
+  /* line-height: 80px; */
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+
+
+  /* align-items: center; */
+  /* justify-content: center; */
+  display: none;
+}
+#check{
+  display: none;
+  /* width: 5%; */
+  /* border: 2px solid red; */
+}
+
+/* Navbar Ends Here  */
+
+/* bg starts here  */
+
+#feedimg {
+  height: 700px;
+  width: 65%;
+  z-index: 1;
+}
+
+#bgtext {
+  background: red;
+  /* opacity: ; */
+  z-index: 2;
+  /* border: 2px solid red; */
+  position: relative;
+  /* top: 60px; */
+  /* float: ; */
+  /* top: -704px; */
+  margin-right: 0px;
+  float: right !important;
+  width: 35%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* border-radius: 40px 0px 0px 40px; */
+}
+
+#bgtext h1,
+h3 {
+  /* border: 2px solid red; */
+  padding: 40px;
+ 
+}
+/* bg ends here  */
+
+
+/* our work section starts here  */
+
+#ourwork{
+  /* border: 2px solid red; */
+  position: relative;
+  /* top: -705px; */
+  display: flex;
+  margin: -5px;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #15212d;
+  /* background-color: red; */
+  /* border-radius: 1%; */
+  /* width: 100%; */
+
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#downoptions{
+  display: none;
+  /* display: block; */
+    width: 100vw;
+    z-index: 4;
+    position: sticky;
+    top: 60px;
+    background: #111111;
+    color: white;
+    height: 200px;
+    /* display: flex; */
+    flex-direction: column;
+    text-align: center;
+    line-height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase
+
+}
+
+#optionbars::onclick #downoptions{
+  display: block;
+
+}
+
+#workheader{
+ /* border: 2px solid green; */
+ /* margin: -5px; */
+ padding: 5px;
+ color: white;
+
+}
+#ourwork-content{
+  /* border: 2px solid blue; */
+  margin: 0px 5px 5px 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* height: 500px; */
+}
+#ourwork-content>iframe{
+  /* border: 2px solid red; */
+  width: 45% ;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  height: 413px;
+  /* width: 527px; */
+    /* height: 358px; */
+}
+
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 35px;
+  background-color: #111111;
+  position: sticky;
+  /* top: 500px; */
+  bottom: 0px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+
+}
+/* contact us starts here  */
+#social{
+  /* border: 2px solid red; */
+  height: 180px;
+  position: relative;
+  /* top: -705px; */
+  background-color: #15212d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#socialheader{
+  /* border: 2px solid green; */
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: -9px;
+
+}
+#links{
+ /* border: 2px solid blue; */
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ text-align: center;
+ justify-content: space-around;
+ height: 50%;
+ margin: 20px 20px;
+}
+
+#phonepic, #wapic, #instapic, #gmailpic{
+  /* border: 2px solid black; */
+  height: 80%;
+}
+
+
+/* contact us ends here  */
+
+
+
+/* effects starts here  */
+
+#options>li:hover {
+  /* background-color: white;
+  color: black; */
+  border: 1px solid white;
+  padding: 5px;
+  transition: 150ms;
+  border-radius: 5px;
+  transition-timing-function: ease-in-out;
+
+}
+
+#phonepic:hover, #wapic:hover, #instapic:hover, #gmailpic:hover{
+  height: 100%;
+  transition:  500ms;
+  transition-timing-function: ease-in-out;
+}
+#logofeed:hover{
+  width: 250px;
+  border-radius: 0% 12% 0% 12%;
+  transition: 750ms ease-in-out;
+  transition-timing-function: ease-in-out;
+
+}
+/* / */  
+/* effects ends here  */
+
+
+
+
+
+
+
+/* Responsive Website Designing starts Here  */
+
+
+@media (max-width:1250px){
+
+  #logopic{
+    width: 100px;
+  }
+  
+  #options{
+    font-size: 16px;
+    width: 100%;
+    
+    /* display: none; */
+  }
+  #ulbox{
+    width: 50%;
+  }
+
+  #feedimg{
+    width: 100vw;
+    height: 450px;
+  }
+  #bgtext{
+    width: 100vw;
+    height: 500px;
+  }
+  #logofeed:hover{
+    width: 250px;
+  }
+  #ourwork{
+    padding: 10px;
+  }
+
+  #ourwork-content>iframe{
+    /* border: 2px solid red; */
+    /* width: 45%; */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 350px;
+  }
+}
+
+@media(max-width:1020px){
+  #ourwork-content>iframe{
+    height: 300px;
+  }
+}
+
+@media(max-width:800px){
+  #ourwork-content>iframe{
+    height: 250px;
+  }
+}
+@media(max-width:700px){
+  #ourwork-content>iframe{
+    width: 100%;
+    padding: 0;
+    border-radius: 10px;
+    height: 375px;
+    border: 5px solid white;
+  
+  }
+}
+
+
+
+
+@media (max-width:650px){
+  #logopic{
+    width: 100px;
+  }
+  
+  #options{
+    font-size: 16px;
+    width: 100%;
+    display: none;
+  }
+  #ulbox{
+    justify-content: flex-end;
+
+  }
+
+
+  #optionbars{
+    display: block;
+    float: right!important;
+    /* border: 2px solid red; */
+    border: none;
+    cursor: pointer;
+
+  }
+
+ 
+
+  #feedimg {
+    height: 400px;
+    width: 50%;
+    z-index: 1;
+  }
+  
+  #bgtext {
+    background: red;
+    /* opacity: ; */
+    z-index: 2;
+    /* border: 2px solid red; */
+    position: relative;
+    /* top: 60px; */
+    /* float: ; */
+    /* top: -704px; */
+    margin-right: 0px;
+    float: right !important;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* border-radius: 40px 0px 0px 40px; */
+  }
+  #bgtext h1{
+    /* border: 2px solid black; */
+    font-size: 32px;
+    padding: 5px;
+  }
+  #bgtext h3{
+    padding: 25px;
+
+  }
+  #logofeed{
+    width: 125px;
+
+  
+}
+#feedimg{
+  width: 100vw;
+  height: 350px;
+}
+#bgtext{
+  width: 100vw;
+  /* padding: 10px; */
+  padding: 0px;
+  height: 350px;
+  font-size: 12px;
+}
+#bgtext>h1{
+  font-size: 16px;
+}
+#logofeed{
+  width: 75px;
+}
+#logofeed:hover{
+  width: 100px;
+}
+
+@media (max-width:600px){
+  #ourwork-content>iframe{
+    width: 100%;
+    padding: 0;
+    border-radius: 10px;
+    height: 350px;
+    border: 5px solid white;
+  
+  }
+}
+
+
+
+@media (max-width:500px){
+  #ourwork-content>iframe {
+    width: 100%;
+    padding: 0;
+    /* margin: 0; */
+    border-radius: 10px;
+    height: 275px;
+    border: 5px solid white
+}
+
+#links{
+  width: 90%;
+
+}
+footer{
+  font-size: 12px;
+}
+
+}
+
+
+
+
+
+
+
+/* Responsive Website Designing Ends here */
+
+
+
+
